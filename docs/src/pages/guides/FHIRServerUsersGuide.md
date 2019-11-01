@@ -47,7 +47,7 @@ View information about recent changes that were made to this document. For more 
 # 2 Installation
 
 ## 2.1 Installing a new server
-1.  To install the FHIR server, build or download the `fhir-install` zip installer (e.g. `fhir-server-distribution.zip` or `fhir-install-4.0.0-rc1-20191014-1610`).
+1.  To install the FHIR server, build or download the `fhir-install` zip installed (e.g. `fhir-server-distribution.zip` or `fhir-install-4.0.0-rc1-20191014-1610`).
 The Maven build creates the zip package under `fhir-install/target`. Alternatively, releases will be made available from the [Releases tab](https://github.com/ibm/fhir/releases).
 
 2.  Unzip the `.zip` package into a clean directory (referred to as `fhir-installer` here):
@@ -1394,7 +1394,7 @@ For more information about topics related to configuring a FHIR server, see the 
 *   [WebSphere Liberty documentation: Defining an OAuth Service Provider](https://www.ibm.com/support/knowledgecenter/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/twlp_oauth_defining.html)
 *   [WebSphere Liberty documentation: Configuring an Open ID Connect Client in liberty](https://www.ibm.com/support/knowledgecenter/SSEQTP_liberty/com.ibm.websphere.wlp.doc/ae/twlp_config_oidc_rp.html)
 
-<hr/>
+<hr/>  
 
 - <b name="f1">1</b> 
 
@@ -1404,7 +1404,7 @@ For more information about topics related to configuring a FHIR server, see the 
 
     When running database-related commands (e.g. createDB.sh, liquibase, etc.) you'll need to make sure that the Db2-related executables are in your PATH, and also that you are logged in as a user that has the necessary authority to create the database and/or create the schema.  Normally, if you log in as the Db2 administrative user (typically "db2inst1") then you should be fine. [↩](#a2)
 
-- <b id="f3">3</b> 
+- <b id="f3">3</b>  
 
     The names of these request headers are configurable within the FHIR server's fhir-server-config.json file.  For more information, see [Section 5.1 Configuration properties reference](#51-configuration-properties-reference). [↩](#a3)
 
